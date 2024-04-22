@@ -83,7 +83,7 @@ dependencies {
     compileOnly("ca.tweetzy:skulls:3.10.0") { isTransitive = false }
     compileOnly("net.skinsrestorer:skinsrestorer-api:14.2.12") { isTransitive = false }
     compileOnly("org.black_ixx:playerpoints:3.2.6") { isTransitive = false }
-    compileOnly("com.github.MilkBowl:VaultAPI:-SNAPSHOT") { isTransitive = false }
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7") { isTransitive = false }
     compileOnly("com.github.tritonmc.Triton:core:v3.9.0") { isTransitive = false }
     compileOnly("com.github.tritonmc.Triton:api:v3.9.0") { isTransitive = false }
 
