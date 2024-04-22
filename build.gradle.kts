@@ -4,7 +4,7 @@ plugins {
     id("org.gradle.java")
     id("org.gradle.maven-publish")
     kotlin("jvm") version "1.8.0" apply false
-    id("io.izzel.taboolib") version "1.56" apply false
+    id("io.izzel.taboolib") version "2.0.11" apply false
 }
 
 description = "Modern & Advanced Menu-Plugin for Minecraft Servers"
@@ -12,10 +12,6 @@ description = "Modern & Advanced Menu-Plugin for Minecraft Servers"
 repositories {
         mavenLocal()
         mavenCentral()
-        maven {
-            url = uri("http://ptms.ink:8081/repository/releases/")
-            isAllowInsecureProtocol = true
-        }
         maven("https://jitpack.io")
         maven("https://oss.sonatype.org/content/repositories/snapshots")
         maven("https://papermc.io/repo/repository/maven-public/")
